@@ -18,5 +18,9 @@ class Show < ActiveRecord::Base
     self.find_by(rating: lr)
   end
   
+  def self.ratings_sum
+    
+  end
+  
   
 end
