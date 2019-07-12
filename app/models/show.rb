@@ -9,4 +9,7 @@ class Show < ActiveRecord::Base
     self.find_by(rating: hr)
   end
   
+  def self.lowest_rating
+  end
+  
 end
